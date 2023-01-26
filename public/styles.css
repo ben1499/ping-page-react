@@ -1,0 +1,83 @@
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+}
+
+.content {
+    max-width: 600px;
+}
+
+.dash-image {
+    max-width: 500px;
+}
+
+
+#header {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.title-text h1{
+    font-size: 40px;
+
+    font-weight: 300;
+    text-align: center;
+    color: hsl(0, 0%, 59%);
+}
+
+.title-text p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+strong{
+    font-weight: bold;
+    color: #000;
+}
+
+.main-form {
+    text-align: center;
+}
+
+.cus-input {
+    border: 1px solid;
+    border-radius: 18px;
+    border-color:hsl(223, 100%, 88%);
+    padding: 12px 20px;
+    padding-right: 120px;
+}
+
+.cus-input::placeholder {
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+}
+
+.btn-cus {
+    border: none;
+    background: hsl(223, 87%, 63%);
+    padding: 12px 40px;
+    margin-left: 10px;
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 1px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-bottom: 80px;
+}
+
+footer {
+    text-align: center;
+    color: hsl(0, 0%, 59%)
+}
