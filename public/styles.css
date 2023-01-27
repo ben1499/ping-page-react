@@ -21,7 +21,7 @@ body {
 
 #header {
     text-align: center;
-    margin: 50px 0;
+    margin: 45px 0;
     font-size: 30px;
     font-weight: 700;
 }
@@ -63,6 +63,10 @@ strong{
     font-weight: 300;
 }
 
+input:active {
+    border-color: yellow;
+}
+
 .btn-cus {
     border: none;
     background: hsl(223, 87%, 63%);
@@ -73,11 +77,38 @@ strong{
     box-shadow: 1px 4px 2px rgba(0, 0, 0, 0.1);
 }
 
+.btn-cus:hover {
+    background: hsl(223, 100%, 88%);
+}
+
 form {
     margin-bottom: 80px;
 }
 
 footer {
     text-align: center;
-    color: hsl(0, 0%, 59%)
+    color: hsl(0, 0%, 59%);
+    margin-top: 40px;
+}
+
+.footer-icons {
+    margin-bottom: 20px;
+}
+
+.icon {
+    color: hsl(223, 87%, 63%);
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+    border: 0.5px solid hsl(223, 87%, 63%);
+    border-radius: 60px;
+}
+
+.icon:hover {
+    background: hsl(223, 87%, 63%);
+    color: #fff;
+}
+
+.fb-icon {
+    border-radius: 120px;
 }

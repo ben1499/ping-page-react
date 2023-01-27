@@ -8,7 +8,7 @@ function Main() {
                 <p>Subscribe and get notified</p>
             </div>
             <form className="main-form" action="">
-                <input class="cus-input" type="text" placeholder="Your email address..."/>
+                <input className="cus-input" type="text" placeholder="Your email address..."/>
                 <button className="btn-cus" type="submit">Notify Me</button>
             </form>
         </main>
