@@ -1,0 +1,183 @@
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+}
+
+.content {
+    max-width: 600px;
+}
+
+.dash-image {
+    max-width: 500px;
+}
+
+
+#header {
+    text-align: center;
+    margin: 55px 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#header h1 {
+    font-size: 35px;
+}
+
+.title-text h1{
+    font-size: 55px;
+
+    font-weight: 300;
+    text-align: center;
+    color: hsl(0, 0%, 59%);
+}
+
+.title-text p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+strong{
+    font-weight: bold;
+    color: #000;
+}
+
+/* Form */
+
+.main-form {
+    text-align: center;
+}
+
+.cus-input {
+    border: 1px solid;
+    border-radius: 18px;
+    border-color:hsl(223, 100%, 88%);
+    padding: 15px 20px;
+    /* padding-right: 120px; */
+    width: 350px;
+}
+
+.cus-input::placeholder {
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+input:active {
+    border-color: yellow;
+}
+
+.btn-cus {
+    font-size: 16px;
+    border: none;
+    background: hsl(223, 87%, 63%);
+    padding: 15px 45px;
+    margin-left: 10px;
+    border-radius: 23px;
+    color: #fff;
+    box-shadow: 1px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+.btn-cus:hover {
+    background: hsl(223, 100%, 88%);
+}
+
+form {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.error-msg {
+    font-size: 12px;
+    font-weight: 300;
+    color: hsl(354, 100%, 66%);
+    display: block;
+    text-align:left;
+    padding-top: 5px;
+    margin-left: 17px;
+}
+
+.dash-image {
+    margin-top: 40px;
+    max-width: 560px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    color: hsl(0, 0%, 59%);
+    margin-top: 90px;
+
+}
+
+.footer-icons {
+    margin-bottom: 25px;
+}
+
+.icon {
+    color: hsl(223, 87%, 63%);
+    padding: 5px;
+    margin-right: 8px;
+    font-size: 11px;
+    border: 0.5px solid hsl(223, 87%, 63%);
+    border-radius: 50%;
+}
+
+.icon:hover {
+    background: hsl(223, 87%, 63%);
+    color: #fff;
+}
+
+.fb-icon {
+    border-radius: 120px;
+}
+
+@media (max-width: 450px) {
+    .content {
+        max-width: 350px;
+        margin: auto;
+    }
+
+    #header {
+        margin-top: 70px;
+    }
+
+    .title-text h1 {
+        font-size: 30px;
+    }
+
+    .cus-input {
+        width: 260px;
+        margin-left: 5px;
+
+    }
+
+    .btn-cus {
+        margin-top: 10px;
+        width: 300px;
+    }
+
+    .error-msg {
+        text-align: center;
+    }
+
+    .dash-image {
+        max-width: 350px;
+        margin: auto;
+    }
+
+    footer {
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+}

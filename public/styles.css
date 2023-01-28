@@ -21,13 +21,17 @@ body {
 
 #header {
     text-align: center;
-    margin: 45px 0;
+    margin: 55px 0;
     font-size: 30px;
     font-weight: 700;
 }
 
+#header h1 {
+    font-size: 35px;
+}
+
 .title-text h1{
-    font-size: 40px;
+    font-size: 55px;
 
     font-weight: 300;
     text-align: center;
@@ -35,6 +39,7 @@ body {
 }
 
 .title-text p {
+    font-size: 20px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -56,14 +61,15 @@ strong{
     border: 1px solid;
     border-radius: 18px;
     border-color:hsl(223, 100%, 88%);
-    padding: 12px 20px;
+    padding: 15px 20px;
     /* padding-right: 120px; */
-    width: 300px;
+    width: 350px;
 }
 
 .cus-input::placeholder {
     color: hsl(0, 0%, 59%);
     font-weight: 300;
+    font-size: 15px;
 }
 
 input:active {
@@ -71,11 +77,12 @@ input:active {
 }
 
 .btn-cus {
+    font-size: 16px;
     border: none;
     background: hsl(223, 87%, 63%);
-    padding: 12px 40px;
+    padding: 15px 45px;
     margin-left: 10px;
-    border-radius: 20px;
+    border-radius: 23px;
     color: #fff;
     box-shadow: 1px 4px 2px rgba(0, 0, 0, 0.1);
 }
@@ -85,6 +92,7 @@ input:active {
 }
 
 form {
+    margin-top: 50px;
     margin-bottom: 60px;
 }
 
@@ -98,12 +106,17 @@ form {
     margin-left: 17px;
 }
 
+.dash-image {
+    margin-top: 40px;
+    max-width: 560px;
+}
+
 /* Footer */
 
 footer {
     text-align: center;
     color: hsl(0, 0%, 59%);
-    margin-top: 40px;
+    margin-top: 90px;
 
 }
 
